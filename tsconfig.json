@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    // Çevre Ayarları (tsx ve Modern Araçlar İçin En Uyumlu Mod)
+    "module": "esnext",
+    "moduleResolution": "bundler",
+    "target": "esnext",
+    "esModuleInterop": true,
+    "lib": ["esnext"],
+    "types": ["node"],
+
+    // Çıktı Ayarları (Derleme yapılmayacağı, sadece check edileceği için noEmit true)
+    "noEmit": true, 
+    "sourceMap": true,
+
+    // Sıkı Tip Kontrolü Seviyesi (Açık kalması kod kalitesi için iyidir)
+    "strict": true,
+    "noUncheckedIndexedAccess": true,
+    "exactOptionalPropertyTypes": true,
+    "skipLibCheck": true,
+
+    // Stil ve Kod Biçimlendirme Kuralları
+    "verbatimModuleSyntax": true,
+    "isolatedModules": true,
+    "moduleDetection": "force"
+  }
+}
